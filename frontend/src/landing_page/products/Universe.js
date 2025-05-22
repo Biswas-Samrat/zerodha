@@ -35,9 +35,9 @@ function Universe() {
           <p className="text-small text-muted">Thematic investment platform</p>
         </div>
 
-      <a href='/signup' className=" btn btn-primary fs-5 mb-5 ">
-        Sign up Now
-      </a>
+   <Link to="/signup" className="p-3 btn btn-primary fs-5 mb-5 w-100"> 
+              Sign Up
+            </Link>
       </div>
     </div>
   );
