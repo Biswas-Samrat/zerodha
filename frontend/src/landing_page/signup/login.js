@@ -36,7 +36,7 @@ const Login = () => {
 
       if (res.data.success) {
         setMessage({ type: "success", text: res.data.message || "Login successful! Redirecting to dashboard..." });
-        window.location.href = "https://zerodha-1-e2f2.onrender.com/dashboard"; 
+        window.location.href = "https://zerodha-1-e2f2.onrender.com/"; 
       } else {
         setMessage({ type: "danger", text: res.data.message || "Login failed. Please check your credentials." });
       }
