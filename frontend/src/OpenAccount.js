@@ -12,9 +12,9 @@ function OpenAccount() {
       </p>
     </div>
     <div className="col-md-4 mx-auto">
-      <a href='/signup' className="p-3 btn btn-primary fs-5 mb-5 w-100">
-        Sign up Now
-      </a>
+     <Link to="/signup" className="p-3 btn btn-primary fs-5 mb-5 w-100"> 
+              Sign Up
+            </Link>
     </div>
   </div>
 </div>
